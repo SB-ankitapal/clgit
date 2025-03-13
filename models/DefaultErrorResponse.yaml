@@ -1,0 +1,16 @@
+title: DefaultErrorResponse
+x-stoplight:
+  id: kbm1ul0s4c6xu
+type: object
+description: 'Sometimes, an operation can return multiple errors with different HTTP status codes, but all of them have the same response structure. This schema is used to describe these errors collectively.'
+required:
+  - detail
+properties:
+  detail:
+    x-stoplight:
+      id: 9lnxedqlodfgr
+    type: string
+  fields:
+    type: object
+    x-stoplight:
+      id: mra1x3ia4yhdz

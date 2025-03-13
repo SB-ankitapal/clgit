@@ -1,0 +1,10 @@
+title: MeasurementQuantity
+x-stoplight:
+  id: f6arthsm6l1bx
+enum:
+  - temperature
+  - humidity
+  - effect
+  - energy
+  - flow
+  - speed

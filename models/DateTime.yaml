@@ -1,0 +1,8 @@
+title: DateTime
+x-stoplight:
+  id: hznqp5tx8gpci
+type: string
+format: date-time
+pattern: '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$'
+example: '2024-11-13T14:00:00Z'
+description: We use ISO 8601 with UTC

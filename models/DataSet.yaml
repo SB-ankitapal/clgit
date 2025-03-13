@@ -1,0 +1,47 @@
+title: DataSet
+x-stoplight:
+  id: ot3f936quo6wd
+type: object
+properties:
+  timestamp:
+    type: array
+    x-stoplight:
+      id: jidkvzu3u1dfi
+    items:
+      x-stoplight:
+        id: 684bxuovk5lzw
+      type: integer
+      format: int64
+  labels:
+    type: array
+    x-stoplight:
+      id: bm3lesyay6p8o
+    items:
+      x-stoplight:
+        id: m9ouxp86ys40q
+      type: string
+  data:
+    type: array
+    x-stoplight:
+      id: n3yxozbwzctnv
+    items:
+      x-stoplight:
+        id: j1u0wr6p3hwde
+      type: number
+      format: float
+examples:
+  - timestamp:
+      - 1721703228
+      - 1721916802
+      - 1720963902
+      - 1722232072
+      - 1722083798
+    labels:
+      - kWh
+    data:
+      - 22
+      - 25
+      - 33
+      - 22
+      - 11
+      - 22

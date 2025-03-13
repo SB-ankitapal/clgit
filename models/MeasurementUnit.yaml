@@ -1,0 +1,21 @@
+title: MeasurementUnit
+x-stoplight:
+  id: f437mscjrb4ft
+enum:
+  - Bar
+  - kWh
+  - kWh/h
+  - °C
+  - '%'
+  - kW
+  - MWh
+  - m3/h
+  - W/m²
+  - COP
+  - l/s
+  - W
+  - µg/m³
+  - ppm
+  - '% RH'
+  - rpm
+  - Pa

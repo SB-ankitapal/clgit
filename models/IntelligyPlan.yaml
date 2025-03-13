@@ -1,0 +1,18 @@
+title: IntelligyPlan
+x-stoplight:
+  id: hb8w2mtr9tqiq
+description: Available Intelligy plans in Intfas
+enum:
+  - basic
+  - heat
+  - heat_pump
+  - heat_start
+  - operation
+  - operation_manager
+  - ferroamp
+  - ferroamp_solar
+  - ferroamp_battery
+  - charge
+  - imd
+  - ventilation
+  - cooling_power_limit

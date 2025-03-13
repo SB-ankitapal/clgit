@@ -1,0 +1,19 @@
+title: Measurement
+x-stoplight:
+  id: t3ht3ys5rwh89
+type: object
+description: Model for all types of measurements
+properties:
+  value:
+    type: number
+    x-stoplight:
+      id: 3jde788knx45x
+    format: double
+  unit:
+    $ref: ./MeasurementUnit.yaml
+    x-stoplight:
+      id: f2elpga8g7t2o
+  quantity:
+    $ref: ./MeasurementQuantity.yaml
+    x-stoplight:
+      id: jj3wm30e293bq
